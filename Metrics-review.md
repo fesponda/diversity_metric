@@ -9,7 +9,7 @@ Program diversity metrics, as we've seen so far, can be divided into two large g
 
 ### Semantical
 Most of the proposals encountered so far look explicitly at the bytecodes that represent each program but there are a couple that look explicitly at their behavior
-- Statistical and machine learning models: These approaches require training statistical or machine learning models on system calls emitted from different running versions of the code. This are used to detect deviations from normal (HMM and anils).
+- Statistical and machine learning models: These approaches require training statistical or machine learning models on system calls emitted from different running versions of the code. This are used to detect deviations from normal (HMM and Anil's).
 
 - Graph based similarity (Bindiff, Google): This technique attempts to recover and compare the control-flow and call graphs of a pair of binaries. As such it can only detect differences in the control-flow
 
